@@ -16,6 +16,10 @@ function calculateTip()
     {
         document.querySelector('#each').style.display = 'none';
     }
+    if(persons === '0')
+    {
+        alert("Give Valid Input");
+    }
     else
     {
         document.querySelector('#each').style.display = 'block';
